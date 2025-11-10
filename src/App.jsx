@@ -138,7 +138,7 @@ const App = () => {
       </style>
 
    
-      <header className="flex-shrink-0 flex justify-between items-center p-4 border-b border-gray-800">
+      <header className="shrink-0 flex justify-between items-center p-4 border-b border-gray-800">
         <h1 className="text-2xl font-bold text-white">Gallery</h1>
         <span className="text-sm text-gray-500">Created by: Krishna Sharma</span>
       </header>
@@ -167,7 +167,7 @@ const App = () => {
       </main>
 
  
-      <footer className="flex-shrink-0 flex items-center justify-center gap-4 sm:gap-6 py-4 border-t border-gray-800">
+      <footer className="shrink-0 flex items-center justify-center gap-4 sm:gap-6 py-4 border-t border-gray-800">
         <button
           disabled={index === 1} 
           className="bg-gray-800 hover:bg-gray-700 text-white font-medium py-2 px-5 rounded-lg transition-all duration-300 disabled:opacity-40 disabled:cursor-not-allowed"
